@@ -2,8 +2,6 @@
 
 <h1>chessMAX</h1>
 
-<p><a href="./.readme/README.cs.md">Česky</a></p>
-
 <p>
 developed and maintained by
 <a href="https://www.initmax.com"><img alt="initMAX" src="./.readme/logo/initmax-logo-framed.svg" height="22" valign="middle"></a>
