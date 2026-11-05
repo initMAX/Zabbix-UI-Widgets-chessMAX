@@ -1,0 +1,15 @@
+01-overview.png:
+  en: "Tom and Jack playing chess with a five-minute clock."
+  cs: "Šachová partie Toma a Jacka s pěti minutami na hráče."
+02-local.png:
+  en: "Landscape board: Tom plays white and Jack plays black."
+  cs: "Šachovnice na šířku: Tom hraje bílými a Jack černými."
+03-portrait.png:
+  en: "Portrait board with player cards above and below the board."
+  cs: "Šachovnice na výšku s kartami hráčů nad a pod hrací plochou."
+04-new-game.png:
+  en: "New-game options: side, opponent, engine level and clock."
+  cs: "Nová hra: výběr barvy, soupeře, obtížnosti a časového limitu."
+06-settings.png:
+  en: "Widget settings for legal-move hints and the default clock."
+  cs: "Nastavení nápovědy povolených tahů a výchozího časového limitu."
