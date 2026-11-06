@@ -76,9 +76,9 @@ Checkmate, stalemate and insufficient material are detected. Repetition and the 
 
 ## Install
 
-chessMAX is distributed as GPG-signed deb and rpm packages, with source archives also available.
+chessMAX is distributed as GPG-signed DEB/RPM packages for native installations and RSA-signed Alpine APK packages for Docker frontends, with ZIP archives for manual or offline installation.
 
-Running the Zabbix frontend in Docker? The same repository serves an Alpine (`apk`) package, and the **Docker** tab of the Portal installer writes the Dockerfile block for your edition.
+Running the Zabbix frontend in Docker? The **Docker** tab of the Portal installer prepares the Dockerfile block and build command for your edition. Alpine APK is the recommended method; DEB/RPM are also available for matching base images, or use a manual ZIP installation in a persistent volume. For package updates, rebuild your frontend image and recreate the container.
 
 **Easiest way - the guided installer on the Portal:**
 
@@ -110,7 +110,7 @@ chessMAX is entirely FREE. There is no PRO edition or paid feature set.
 | Zabbix | 6.0, 6.2, 6.4, 7.0, 7.2, 7.4 and 8.0; one package includes both frontend module generations |
 | PHP | 7.4 or newer, within the requirements of your Zabbix version |
 | Browser | A modern browser with JavaScript; WebAssembly and Web Workers for Stockfish |
-| Operating system | A supported Zabbix frontend installation on a deb- or rpm-based distribution |
+| Operating system | A supported Zabbix frontend installation on a deb- or rpm-based distribution; Alpine APK for Docker frontends |
 | Editions | FREE only |
 | Languages | 27 catalogues: 25 current display languages plus Dutch and Romanian for older Zabbix versions; the widget follows each user's language setting |
 | High availability | Ready. Game records are stored in the shared Zabbix database. Install chessMAX on every frontend node. |
