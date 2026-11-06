@@ -78,6 +78,8 @@ Checkmate, stalemate and insufficient material are detected. Repetition and the 
 
 chessMAX is distributed as GPG-signed deb and rpm packages, with source archives also available.
 
+Running the Zabbix frontend in Docker? The same repository serves an Alpine (`apk`) package, and the **Docker** tab of the Portal installer writes the Dockerfile block for your edition.
+
 **Easiest way - the guided installer on the Portal:**
 
 [Open the chessMAX guided installer](https://portal.initmax.com/catalog/zabbix-chessmax#how-to-install)
